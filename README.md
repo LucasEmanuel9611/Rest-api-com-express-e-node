@@ -6,5 +6,5 @@ e vai incluir os controllers
 
 infraestrutura cuida da conexâo e cria as tabelas
 
-atendimentos   
+atendimentos  tem a função que trata os dados  enviadosa  API, onde podem ser incluidas validações e no moneto ele envia  a data de crição do atendimento
 
