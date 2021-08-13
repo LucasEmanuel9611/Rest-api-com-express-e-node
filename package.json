@@ -1,0 +1,30 @@
+{
+  "name": "api_rest_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "4.17.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.12",
+    "save-dev": "0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasEmanuel9611/Api_rest_mode.git"
+  },
+  "author": "lucas emanuel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasEmanuel9611/Api_rest_mode/issues"
+  },
+  "homepage": "https://github.com/LucasEmanuel9611/Api_rest_mode#readme"
+}
