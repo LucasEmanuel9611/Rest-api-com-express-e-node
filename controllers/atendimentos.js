@@ -6,8 +6,9 @@ module.exports = app => {
     app.post('/atendimentos', (req, res) => {
         const atendimento = req.body //isso é uma requisição
 
-        Atendimento.adiciona(atendimento)
-        res.send('Post atendimento')
+        //vai executar a função utilizando as variaveis que passei
+        Atendimento.adiciona(atendimento, res)
     })
 }
 
+//onde podemos colocar validacoes de segurança
